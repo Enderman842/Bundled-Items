@@ -70,7 +70,6 @@
 	"item.bundleditems.bundled_oxeye_daisies": "Bouquet of Oxeye Daisies",
 	"item.bundleditems.bundled_poppies": "Bouquet of Poppies",
 	"item.bundleditems.bundled_wither_roses": "Bouquet of Wither Roses",
-	//
 	"item.bundleditems.bundled_oak_saplings": "Bundled Oak Saplings",
 	"item.bundleditems.bundled_spruce_saplings": "Bundled Spruce Saplings",
 	"item.bundleditems.bundled_birch_saplings": "Bundled Birch Saplings",
@@ -83,6 +82,9 @@
 	"item.bundleditems.bundled_seeds": "Bundled Wheat Seeds",
 	"item.bundleditems.bundled_honey": "Jar of Honey",
 	"item.bundleditems.bundled_ghast_tears": "Vial of Ghast Tears",
+	"item.bundleditems.bundled_charcoal": "Basket of Charcoal",
+	"item.bundleditems.bundled_eggs": "Basket of Eggs",
+	"item.bundleditems.bundled_pufferfish": "Bundled Pufferfish",
 
 	"itemGroup.bundleditems": "Bundled Items"
 

@@ -28,6 +28,7 @@ import puxped.bundleditems.items.BundledBread;
 import puxped.bundleditems.items.BundledBricks;
 import puxped.bundleditems.items.BundledBuckets;
 import puxped.bundleditems.items.BundledCarrots;
+import puxped.bundleditems.items.BundledCharcoal;
 import puxped.bundleditems.items.BundledChorusFruits;
 import puxped.bundleditems.items.BundledClayBalls;
 import puxped.bundleditems.items.BundledCod;
@@ -43,6 +44,7 @@ import puxped.bundleditems.items.BundledCornflowers;
 import puxped.bundleditems.items.BundledDandelions;
 import puxped.bundleditems.items.BundledDarkOakSaplings;
 import puxped.bundleditems.items.BundledEGoldenApple;
+import puxped.bundleditems.items.BundledEggs;
 import puxped.bundleditems.items.BundledEmptyBottles;
 import puxped.bundleditems.items.BundledFeathers;
 import puxped.bundleditems.items.BundledFireworks;
@@ -67,6 +69,7 @@ import puxped.bundleditems.items.BundledPinkTulips;
 import puxped.bundleditems.items.BundledPoppedChorusFruits;
 import puxped.bundleditems.items.BundledPoppies;
 import puxped.bundleditems.items.BundledPorkchop;
+import puxped.bundleditems.items.BundledPufferfish;
 import puxped.bundleditems.items.BundledRawBeef;
 import puxped.bundleditems.items.BundledRawChicken;
 import puxped.bundleditems.items.BundledRawMutton;
@@ -165,7 +168,8 @@ import puxped.bundleditems.network.UncraftingPacket;
              BItems.bundled_ghast_tears = (Item)(new BundledGhastTears((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_ghast_tears")),
              BItems.bundled_seeds = (Item)(new BundledSeeds((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_seeds")), 
              BItems.bundled_bread = (Item)(new BundledBread((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_bread")), 
-             BItems.bundled_flints = (Item)(new BundledFlints((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_flints")), 
+             BItems.bundled_flints = (Item)(new BundledFlints((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_flints")),
+             BItems.bundled_charcoal = (Item)(new BundledCharcoal((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_charcoal")), 
              BItems.bundled_buckets = (Item)(new BundledBuckets((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_buckets")), 
              BItems.bundled_name_tags = (Item)(new BundledNameTags((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_name_tags")), 
              BItems.bundled_porkchop = (Item)(new BundledPorkchop((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_porkchop")), 
@@ -189,6 +193,8 @@ import puxped.bundleditems.network.UncraftingPacket;
              BItems.bundled_salmon = (Item)(new BundledSalmon((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_salmon")), 
              BItems.bundled_cooked_cod = (Item)(new BundledCookedCod((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_cooked_cod")), 
              BItems.bundled_cooked_salmon = (Item)(new BundledCookedSalmon((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_cooked_salmon")), 
+             BItems.bundled_pufferfish = (Item)(new BundledPufferfish((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_pufferfish")),
+             BItems.bundled_eggs = (Item)(new BundledEggs((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_eggs")), 
              BItems.bundled_cookies = (Item)(new BundledCookies((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_cookies")), 
              BItems.bundled_carrots = (Item)(new BundledCarrots((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_carrots")), 
              BItems.bundled_golden_carrots = (Item)(new BundledGoldenCarrots((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_golden_carrots")), 

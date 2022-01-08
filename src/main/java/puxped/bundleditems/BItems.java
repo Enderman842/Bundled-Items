@@ -93,4 +93,6 @@ public class BItems {
   public static Item bundled_honey_bottles;
   public static Item quiver;
   public static Item bundled_ghast_tears;
+  public static Item bundled_charcoal;
+  public static Item bundled_eggs;
 }
