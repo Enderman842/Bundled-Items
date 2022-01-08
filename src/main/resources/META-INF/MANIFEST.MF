@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Bundled-Items
+Implementation-Version: 1.0
+Specification-Vendor: puxped
+Specification-Title: bundleditems
+Implementation-Timestamp: 2020-11-02T23:15:59+0100
+Specification-Version: 1
+Implementation-Vendor: puxped
+
