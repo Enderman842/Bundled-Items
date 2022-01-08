@@ -92,4 +92,5 @@ public class BItems {
   public static Item bundled_dark_oak_saplings;
   public static Item bundled_honey_bottles;
   public static Item quiver;
+  public static Item bundled_ghast_tears;
 }

@@ -47,6 +47,7 @@ import puxped.bundleditems.items.BundledEmptyBottles;
 import puxped.bundleditems.items.BundledFeathers;
 import puxped.bundleditems.items.BundledFireworks;
 import puxped.bundleditems.items.BundledFlints;
+import puxped.bundleditems.items.BundledGhastTears;
 import puxped.bundleditems.items.BundledGlowstoneDust;
 import puxped.bundleditems.items.BundledGoldenApples;
 import puxped.bundleditems.items.BundledGoldenCarrots;
@@ -161,6 +162,7 @@ import puxped.bundleditems.network.UncraftingPacket;
              BItems.bundled_gunpowder = (Item)(new BundledGunpowder((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_gunpowder")), 
              BItems.bundled_redstone = (Item)(new BundledRedstone((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_redstone")), 
              BItems.bundled_sugar = (Item)(new BundledSugar((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_sugar")), 
+             BItems.bundled_ghast_tears = (Item)(new BundledGhastTears((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_ghast_tears")),
              BItems.bundled_seeds = (Item)(new BundledSeeds((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_seeds")), 
              BItems.bundled_bread = (Item)(new BundledBread((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_bread")), 
              BItems.bundled_flints = (Item)(new BundledFlints((new Item.Properties()).maxStackSize(32).group(Main.bundleditems))).setRegistryName(location("bundled_flints")), 

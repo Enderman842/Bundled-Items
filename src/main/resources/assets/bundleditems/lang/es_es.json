@@ -81,7 +81,9 @@
 	"item.bundleditems.bundled_vines": "Muchas Enredaderas",
 	"item.bundleditems.bundled_string": "Muchos Hilos",
 	"item.bundleditems.bundled_seeds": "Muchas Semillas de trigo",
+	//TO BE TRANSLATED
 	"item.bundleditems.bundled_honey": "",
+	"item.bundleditems.bundled_ghast_tears": "",
 	
 	"itemGroup.bundleditems": "Muchas cosas (Bundled Items)"
 
